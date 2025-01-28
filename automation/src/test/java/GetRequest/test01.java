@@ -18,6 +18,8 @@ public class test01 {
             System.out.println("Test Failed");
             
         }
+    System.out.println("Response time: " + RestAssured.given().get().getTime());
     }
+
 
 }
