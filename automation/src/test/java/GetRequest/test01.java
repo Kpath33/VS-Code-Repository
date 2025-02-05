@@ -2,8 +2,6 @@ package GetRequest;
 
 import org.testng.annotations.Test;
 
-import java.net.http.HttpRequest;
-
 import io.restassured.RestAssured;
 
 public class test01 {
